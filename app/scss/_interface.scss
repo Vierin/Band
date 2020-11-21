@@ -1,0 +1,42 @@
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.container{
+    max-width: 1490px;
+    margin: 0 auto;
+    height: 100%;
+}
+.container__small{
+    max-width: 1270px;
+}
+
+body{
+    font-family: Oswald Regular;
+}
+
+.btn-brown, .btn-gray{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #826b60;
+    margin: 0 15px;
+}
+.btn-gray{
+    color: #826b60;
+    background-color: #e4dddb;
+}
