@@ -111,5 +111,10 @@ $(function(){
         $('body,html').animate({scrollTop: top}, 1000);
         });
     });
+
+    $('.header-btn').on('click', function(){
+        $(this).css("transform", "translateX(1000%) rotate(45deg)");
+        $('.header-nav').css("transform", "translateX(0%)");
+    })
 });
 

@@ -8,6 +8,17 @@
 .header{
     &-nav{
         position: absolute;
+        top: 50px;
+        transition: all 1s;
+    }
+    &-btn{
+        display: none;
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        font-size: 35px;
+        transition: all 1s;
     }
 }
 .menu{
@@ -453,7 +464,13 @@
         right: 30px;
     }
 }
-
+.concert-list::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgba(#826b60, .2);
+}
+.concert-list::-webkit-scrollbar-thumb{
+    background: #826b60;
+}
 
 //footer
 .footer{
@@ -499,6 +516,8 @@
     }
     &-social{
         margin-left: 30px;
+        display: flex;
+        align-items: center;
     }
     &-bottom{
         color: #fff;

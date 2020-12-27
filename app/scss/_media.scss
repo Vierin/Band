@@ -1,0 +1,285 @@
+@media (max-width:1600px){
+    .container{
+        max-width: 1230px;
+    }
+    .hero-desc{
+        margin: 0;
+    }
+    .album-title, .album-year {
+        font-size: 20px;
+    }
+    .btn-brown, .btn-gray {
+        margin: 0 5px;
+    }
+    .slick-dots{
+        right: 15%;
+    }
+}
+@media (max-width: 1430px){
+    .container{
+        max-width: 1100px;
+    }
+    .persone_desc{
+        max-width: 380px;
+        margin-bottom: 80px;
+    }
+    .persone_name {
+        margin-bottom: 80px;
+    }
+    .album-title{
+        flex-basis: 40%;
+    }
+    .persone_desc span {
+        margin: 30px 0;
+    }
+}
+@media (max-width: 1200px){
+    .container{
+        max-width: 920px;
+    }
+    .hero{
+        background-position: right;
+    }
+    .header-nav {
+        top: 15px;
+    }
+    .hero-desc{
+        max-width: 300px;
+    }
+    .hero__title{
+        font-size: 75px;
+    }
+    
+    .about-slide{
+        background-position-x: -120px;
+    }
+    .slick-dots {
+        right: 0;
+    }
+    .persone_desc{
+        display: none;
+    }
+    .persone_name{
+        left: 80%;
+    }
+    .albums-img{
+        display: none;
+    }
+    .albums-wrap{
+        flex-direction: column-reverse;
+    }
+    .slick-btn i{
+        font-size: 60px;
+    }
+}
+@media (max-width: 1024px){
+    .container{
+        max-width: 768px;
+    }
+    .hero-wrap {
+        justify-content: center;
+    }
+    .hero{
+        background-position-x: -10px;
+    }
+}
+@media (max-width: 830px){
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .tour-slider--wrap{
+        display: none;
+    }
+    .tour-title{
+        margin-bottom: 30px;
+    }
+    .concert-list{
+        margin-top: 0;
+    }
+    .concert-place {
+        font-size: 20px;
+    }
+    .persone_name{
+        font-size: 50px;
+    }
+    .concert-list{
+        padding: 0;
+    }
+    .slick-link {
+        margin: 5px 0;
+    }
+    .slick-dots{
+        right: 0%;
+    }
+    .footer-title, .footer-number{
+        font-size: 50px;
+    }
+    .form-inp {
+        width: 230px;
+    }
+    .footer-img{
+        height: 30px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .about, .slick-slide div{
+        height: 80vh;
+    }
+}
+@media (max-width: 660px){
+    .footer-row{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .footer-social{
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+    .about, .slick-slide div{
+        height: 70vh;
+    }
+    .footer-menu .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu-item{
+        flex-basis: 30%;
+        padding: 5px 0;
+    }
+    .menu-link{
+        padding: 0 10px;
+    }
+    .menu-link::after{
+        display: none;
+    }
+    .footer-block{
+        width: 450px;
+    }
+    .header .container{
+        display: flex;
+        justify-content: center;
+    }
+    .concert-date, .concert-place{
+        padding: 0 10px;
+    }
+    .concert-ticket{
+        right: 15px;
+    }
+}
+@media (max-width: 580px){
+    .about, .slick-slide div{
+        height: 50vh;
+    }
+    .slick-btn i{
+        font-size: 35px;
+    }
+    .persone_name{
+        margin-bottom: 25px;
+        font-size: 40px;
+    }
+    .slick-link{
+        width: 240px;
+        font-size: 14px;
+    }
+    .slick-link .persone, .slick-link .persone-role{
+        width: 100px;
+    }
+    .concert-place, .concert-month, .concert-year{
+        font-size: 14px;
+    }
+    .concert-date {
+        font-size: 30px;
+    }
+}
+@media (max-width: 480px){
+    .header-nav{
+        transform: translateX(-110%);
+    }
+    .form-btn {
+        font-size: 14px;
+    }
+    .footer-block{
+        width: 100%;
+    }
+    .form-item {
+        border: 2px solid #241c18;
+    }
+    .concert-place{
+        font-size: 14px;
+    }
+    .btn-brown, .btn-gray{
+        font-size: 14px;
+    }
+    .concert-ticket{
+        right: 0;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .footer-bottom{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header-btn{
+        display: block;
+    }
+}
+@media (max-width: 420px){
+    .hero__title {
+        font-size: 65px;
+    }
+    .album-btn:first-child{
+        display: none;
+    }
+    .footer-title, .footer-number{
+        font-size: 40px;
+    }
+    .menu-link {
+        font-size: 14px;
+    }
+    .concert-month, .concert-year{
+        font-size: 10px;
+    }
+    .concert-date{
+        font-size: 20px;
+    }
+    .concert-place{
+        max-width: 100px;
+    }   
+}
+@media (max-width: 380px){
+    .hero-desc_item:last-child{
+        display: none;
+    }
+    .hero-desc_item{
+        width: 120px;
+    }
+    .menu-link {
+        font-size: 14px;
+    }
+    .slick-dots{
+        display: none !important;
+    }
+    .hero-desc_bg{
+        display: none;
+    }
+    .form-inp{
+        width: 100%;
+    }
+    .form{
+        height: 40px;
+    }
+}
+@media (max-width:320px){
+    .footer-bottom{
+        left: 50%;
+    }
+    .album-title, .album-year, .song-title, .song-duration {
+        font-size: 14px;
+    }
+    .footer-title, .footer-number{
+        font-size: 30px;
+    }
+}
